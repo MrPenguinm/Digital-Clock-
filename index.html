@@ -1,45 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- style -->
-     <link rel="stylesheet" href="style.css">
-     <link rel="icon" href="pe.icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="pe.icon" />
     <title>🐧</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Strat -->
-     <div class="time" id="time">
-
-        
-
-        <div class="container" id="cont">
-
-            <div class="clock" id="clock">
-               <span id="hrs">00</span>
-               <span>:</span>
-               <span id="min">00</span>
-               <span>:</span>
-               <span id="sec">00</span>
-            </div>
-            <p>🎵</p>
-            <audio id="backgroundAudio" loop>
-              <source src="ocean-waves-112906 (1).mp3" type="audio/mpeg">
-            </audio>
-
-           
-
+    <main class="time" id="time">
+      <section class="container" id="cont">
+        <div class="clock" id="clock">
+          <span id="hrs">00</span>
+          <span>:</span>
+          <span id="min">00</span>
+          <span>:</span>
+          <span id="sec">00</span>
         </div>
+        <p id="icon">🎵</p>
+        <audio loop id="backgroundAudio">
+          <source src="ocean-waves-112906 (1).mp3" type="audio/mpeg" />
+        </audio>
+      </section>
 
-        <div class="ocean">
-            <div class="wave"></div>
-            <div class="wave"></div>
-          </div>
-
-     </div>
+      <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
+    </main>
     <!-- End -->
-
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

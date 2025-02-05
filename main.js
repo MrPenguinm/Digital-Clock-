@@ -18,7 +18,3 @@ setInterval(function () {
 musicIcon.addEventListener("click", function () {
   music.play();
 });
-
-let dateTime2 = new Date();
-
-console.log(dateTime2);
